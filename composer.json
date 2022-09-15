@@ -1,0 +1,18 @@
+{
+    "name": "user/stripe",
+    "description": "These activities allow the students to experience integration with a payment system like Stripe through its API.",
+    "autoload": {
+        "psr-4": {
+            "User\\Stripe\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "gigglebite",
+            "email": "candelaria.aleeyajenzen@auf.edu.ph"
+        }
+    ],
+    "require": {
+        "stripe/stripe-php": "^9.5"
+    }
+}
